@@ -1,0 +1,116 @@
+.options{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .option__title{
+    font-size: 64px;
+    width: 775px;
+    letter-spacing: -3px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 62px;
+  }
+  
+  .option__list {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 1110px;
+    margin: auto;
+  }
+  
+  .option__elem {
+    width: 350px;
+    height: 400px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 22px;
+    border-radius: 10px;
+  }
+  
+  .list__elem {
+    font-size: 36px;
+    font-weight: 400;
+    width: 301px;
+    padding-top:23.06px;
+  }
+  
+  .list__paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    opacity: 0.5;
+    padding-top: 15px;
+    line-height: 28px;
+  }
+  
+  .list__div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 301px;
+  }
+  
+  .list__link {
+    margin-top: auto;
+    width:fit-content;
+  }
+  
+  .list__top__img {
+    width: 25px;
+    height: auto;
+  }
+  
+  .pr{
+    position:relative;
+  }
+  
+  .visually-hidden {
+    display:none;
+  }
+  
+  .card__link {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+  }
+  
+  .bottom__title {
+    width: 752px;
+    margin: auto;
+    font-size: 22px;
+    letter-spacing: -0.4px;
+    line-height: 32px;
+    opacity: 0.4;
+    text-align: center;
+  }
+  
+  .options__button {
+    width: 191px;
+    height: 50px;
+    background-color: #6AC75A;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 35px;
+  }
+  
+  .button__elem {
+    letter-spacing: -0.36px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 17px;
+    font-weight: 500;
+  }

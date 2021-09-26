@@ -1,60 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-$padding: 6px;
-
-
-nav {
-  ul {
-    margin: 0;
-    padding: $padding;
-    list-style: none;
-  }
-
-  li { display: inline-block; }
-
-  a {
-    display: block;
-    padding: $padding 12px;
-    text-decoration: none;
-  }
-}
-
-.nav {
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 75%;
-  margin: auto;
-  justify-content: space-between;
-  margin-top: 35px;
-
-    &__list{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 30%;
-      font-weight: 400;
-      font-size: 16px;
-      color: #111111;
-    }
-
-    &__buttons{
-      flex-direction: row;
-      display: flex;
-      justify-content: space-between;
-      font-weight: 500;
-      font-size: 14px;
-      color:#783BFF;
-    }
-
-    &__button__sign__up{
-      outline: auto;
-      color:rgba(225, 228, 235, 1);
-    }
-}
-
-.home__content {
-  display: flex;
-  flex-direction: row;
-  width: 95%;
-}
+@import "sass/reset";
+@import "sass/nav";
+@import "sass/home";
+@import "sass/options";
+@import "sass/reference";
+@import "sass/keyfolder";
+@import "sass/card";
+@import "sass/footer";

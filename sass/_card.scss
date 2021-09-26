@@ -1,0 +1,131 @@
+.cards {
+    width: 1118px;
+    margin: auto;
+    padding-top: 180px;
+   background: white;
+   margin-bottom: 90px;
+}
+
+.cards__title {
+    font-size: 64px;
+    letter-spacing: -3px;
+    line-height: 78px;
+    width: 775px;
+}
+
+.cards__block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1120px;
+    margin: auto;
+    margin-top: 62px;
+}
+
+.container {
+    width: 350px;
+    height: 430px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.container .card .face {
+    width: 350px;
+    height: 430px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1 {
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    color:black;
+    border-radius: 10px;
+    border: 1px solid #A9ABBD;
+}
+
+.container .card:hover .face.face1 {
+    opacity: 1;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.container .card:hover .face.face1 button{
+    opacity: 1;
+    transition: 0.5s;
+    background-color: #783BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.container .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card__type {
+    font-size: 22px;
+    letter-spacing: -0.4px;
+    opacity: 0.4;
+    margin-bottom: 15px
+}
+
+.card__price {
+    font-size: 48px;
+    letter-spacing: -1.6px;
+}
+
+.card__accent {
+    opacity: 0.4;
+    font-size: 22px;
+}
+
+.card__list {
+    font-size: 18px;
+    letter-spacing: -0.4px;
+    list-style: none;
+    line-height: 50px;
+    margin-bottom: 40px;
+    padding-top: 35px;
+}
+
+.card__button {
+    width: 290px;
+    height: 50px;
+    border: 1px solid #A9ABBD;
+    border-radius: 5px;
+    background-color: white;
+    color: #783BFF;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.card__bottom {
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.4;
+    letter-spacing: -0.4px;
+    width: 621px;
+    margin-top: 50px;
+    font-weight: 500;
+}
+

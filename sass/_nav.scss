@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .nav {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1110px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 35px;
+  
+      &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 30%;
+        font-weight: 400;
+        font-size: 16px;
+        color: #111111;
+      }
+  
+      &__buttons{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 14px;
+        color:#783BFF;
+        width: 120px;
+      }
+  
+      &__button__sign__up{
+        outline: auto;
+        color:rgba(225, 228, 235, 1);
+        border: 1px solid #E1E4EB;
+      }
+  }
+
+  a {
+    text-decoration: none;
+  }
